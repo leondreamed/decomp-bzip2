@@ -1,0 +1,38 @@
+{
+  "name": "decomp-bzip2",
+  "version": "0.0.0",
+  "description": "decompress bzip2 plugin",
+  "license": "MIT",
+  "repository": "kevva/decompress-bzip2",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bz2",
+    "bzip2",
+    "decompress",
+    "decompressplugin",
+    "extract"
+  ],
+  "dependencies": {
+    "file-type": "^4.3.0",
+    "seek-bzip": "^1.0.5"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "is-jpg": "^1.0.0",
+    "pify": "^2.3.0",
+    "xo": "*"
+  }
+}
